@@ -178,6 +178,7 @@ export default {
 
 <style scoped>
   #main {
+    font-family: 'Ubuntu Mono', monospace;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -189,7 +190,7 @@ export default {
   }
   #container {
     background: whitesmoke;
-    height: 19rem;
+    height: 21rem;
     width: 40rem;
     padding: 9px 9px;
     padding-left: 25px;
@@ -381,8 +382,8 @@ export default {
       background: linear-gradient(15deg, #403a3e, #be5869);
     }
     #container {
-      width: 80vw;
-      height: 36rem;
+      width: 90vw;
+      height: 39rem;
       flex-direction: column;
       padding-left: 12px;
     }
