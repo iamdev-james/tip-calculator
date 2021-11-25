@@ -43,7 +43,7 @@
             <div id='tip_container' class= 'flex_row'>
              <div class= 'F-17'>
               <p>Tip Amount</p>
-              <p>/ person</p>
+              <p class= 'OP-7'>/ person</p>
             </div>
             <div>
               <h1>$ {{ tipPPerson }} </h1>
@@ -52,7 +52,7 @@
             <div id='total_container' class='flex_row'>
              <div class= 'F-17'>
               <p>Total Amount</p>
-              <p>/ person</p>
+              <p class = 'OP-7'>/ person</p>
             </div>
             <div>
               <h1>$ {{ totalPPerson }} </h1>
