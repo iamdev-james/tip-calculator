@@ -380,7 +380,7 @@ export default {
     #main {
       height: 100vh;
       overflow-x: hidden;
-      background: linear-gradient(15deg, #403a3e, #be5869);
+      background: linear-gradient(90deg, #c5e4e7, #e5fdfe);
     }
     #container {
       width: 90vw;
