@@ -1,5 +1,11 @@
 # tipcalculator
 
+Here is the link to the live site
+
+https://tip-calculator-web.netlify.app
+
+Don't forget to like
+
 ## Project setup
 ```
 npm install
