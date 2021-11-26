@@ -15,7 +15,7 @@
           </div>
           <input v-model= 'totalAmount' type='number' placeholder='0  ' :class = '{ borderdanger : inputErrorAmount }' class='input amount_input'>
          </div>
-         <div class='OP-83'>
+         <div class=''>
           <p class='selectTip'>Select Tip %</p>
           <div id='tip_block'>
             <p class='percent_btn' @click = 'setTipPercent("5")'> 5% </p>
@@ -42,20 +42,20 @@
           <div id= 'result_container' class='result_container'>
             <div id='tip_container' class= 'flex_row'>
              <div class= 'F-17'>
-              <p>Tip Amount</p>
-              <p class= 'OP-7'>/ person</p>
+              <p style= "color: #e5fdfe">Tip Amount</p>
+              <p style= 'color: #66aeaa'>/ person</p>
             </div>
             <div>
-              <h1>$ {{ tipPPerson }} </h1>
+              <h1 style= 'color: RGB(22, 200,129);'>$ {{ tipPPerson }} </h1>
             </div>
             </div>
             <div id='total_container' class='flex_row'>
              <div class= 'F-17'>
-              <p>Total Amount</p>
-              <p class = 'OP-7'>/ person</p>
+              <p style= "color: #e5fdfe">Total Amount</p>
+              <p style= 'color: #66aeaa'>/ person</p>
             </div>
             <div>
-              <h1>$ {{ totalPPerson }} </h1>
+              <h1 style= 'color: RGB(22, 200,129);'>$ {{ totalPPerson }} </h1>
             </div>
             </div>
           <div id='btn_container'>
@@ -186,7 +186,7 @@ export default {
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
-    background: linear-gradient(90deg, #403a3e, #be5869);
+    background: linear-gradient(90deg, #c5e4e7, #e5fdfe);
   }
   #container {
     background: whitesmoke;
@@ -210,7 +210,7 @@ export default {
   #result {
     height: 18rem;
     width: 28rem;
-    background: #5D5C61;
+    background: #00474b;
     border-radius: 15px;
     margin-left: 30px;
     flex: 1;
@@ -221,7 +221,7 @@ export default {
     grid-gap: 8px;
   }
   .percent_btn {
-    background: #2E1114;
+    background: #055355;
     font-size: 18px;
     font-weight: 600;
     color: white;
@@ -233,7 +233,8 @@ export default {
     border-radius: 7px;
   }
   .percent_btn:hover {
-    background: #2E1157
+    background: #77c0ba;
+    color: #055355;
   }
   .custom_container {
     position: relative;
@@ -242,8 +243,8 @@ export default {
     width: 100px;
     position: absolute;
     background: whitesmoke;
-    color: #2E1114;
-    border: 1px solid #2E1114;
+    color: #055355;
+    border: 1px solid #c5e4e7;
   }
   .custom_input {
     position: absolute;
@@ -292,7 +293,7 @@ export default {
     font-weight: 600;
   }
   .welcome {
-    color: white;
+    color: #225d61;
     text-shadow: 2px 2px 4px #403a3e;
   }
   .input {
@@ -340,7 +341,7 @@ export default {
     border: none;
     text-align: center;
     padding:10px 90px;
-    background: #83677B;
+    background: #6ab3ad;
     color: white;
     font-size: 18px;
   }
